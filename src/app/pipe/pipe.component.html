@@ -1,0 +1,8 @@
+<ul>
+    <li>{{ course.name | uppercase | lowercase }}</li>
+    <li>{{ course.students | number }}</li>
+    <li>{{ course.price | currency:'INR' }}</li>
+    <li>{{ course.rating | number:'1.2-2' }}</li>
+    <li>{{ course.release | date }}</li>
+    <li>{{ course.summary | summary:20 }}</li>
+</ul>
